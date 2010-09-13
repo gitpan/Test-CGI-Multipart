@@ -23,18 +23,18 @@ name: Test-CGI-Multipart
 provides:
   Test::CGI::Multipart:
     file: lib/Test/CGI/Multipart.pm
-    version: v0.0.2
+    version: v0.0.3
   Test::CGI::Multipart::Gen::Image:
     file: lib/Test/CGI/Multipart/Gen/Image.pm
-    version: v0.0.2
+    version: v0.0.3
   Test::CGI::Multipart::Gen::Text:
     file: lib/Test/CGI/Multipart/Gen/Text.pm
-    version: v0.0.2
+    version: v0.0.3
 recommends:
   GD: 0
   Text::Lorem: 0
 requires:
-  CGI: 0
+  CGI: 3.41
   MIME::Entity: 0
   Params::Validate: 0
   Readonly: 0
@@ -45,4 +45,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/periapt/Test-CGI-Multipart/tree
-version: v0.0.2
+version: v0.0.3

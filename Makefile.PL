@@ -6,7 +6,7 @@ WriteMakefile
           'NAME' => 'Test::CGI::Multipart',
           'VERSION_FROM' => 'lib/Test/CGI/Multipart.pm',
           'PREREQ_PM' => {
-                           'CGI' => 0,
+                           'CGI' => '3.41',
                            'MIME::Entity' => 0,
                            'Params::Validate' => 0,
                            'Perl6::Slurp' => 0,
