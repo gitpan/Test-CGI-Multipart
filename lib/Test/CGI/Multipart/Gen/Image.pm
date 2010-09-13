@@ -7,7 +7,7 @@ use Readonly;
 use Test::CGI::Multipart;
 use GD::Simple;
 
-use version; our $VERSION = qv('0.0.1');
+use version; our $VERSION = qv('0.0.2');
 
 # Module implementation here
 
@@ -73,7 +73,7 @@ Test::CGI::Multipart::Gen::Image - Generate image test data for multipart forms
 
 =head1 VERSION
 
-This document describes Test::CGI::Multipart::Gen::Image version 0.0.1
+This document describes Test::CGI::Multipart::Gen::Image version 0.0.2
 
 
 =head1 SYNOPSIS
@@ -113,10 +113,10 @@ This document describes Test::CGI::Multipart::Gen::Image version 0.0.1
   
 =head1 DESCRIPTION
 
-    This is a callback package for L<Test::CGI::Multipart> that facilitates 
-    the testing of the upload of text files of a given size and sample content.
-    One can specify the dimensions of the image and the size, font and colours
-    of a simple string.
+This is a callback package for L<Test::CGI::Multipart> that facilitates 
+the testing of the upload of text files of a given size and sample content.
+One can specify the dimensions of the image and the size, font and colours
+of a simple string.
 
 =head1 INTERFACE 
 
